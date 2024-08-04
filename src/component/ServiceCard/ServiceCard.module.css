@@ -1,0 +1,36 @@
+.serviceCardContainer {
+    width: 200px;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    background-color:rgb(0, 0, 0, 0.5) ;
+    padding: 35px 20px;
+    transition:0.2s;
+    
+    
+}
+.serviceCardContainer:hover {
+    background-color:rgb(0, 0, 0, 1) ;
+    h2 {
+        color:#c68608;
+    } 
+}
+
+
+.serviceCardContainer img {
+    width: 200px;
+    height: 150px;
+}
+
+.serviceCardContainer h2 {
+    font-weight: 600;
+    padding-top: 1rem;
+    color: #f5c30f;
+}
+
+.serviceCardContainer p {
+    padding-top: .4rem;
+    text-align: center;
+    font-size: .7rem;
+    color: #fff;
+    font-weight: 200;
+}

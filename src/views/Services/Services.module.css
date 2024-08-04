@@ -1,0 +1,13 @@
+.servicesContainer {
+    width: 100%;
+      height: 100vh;
+      background-color: rgb(24, 21, 21);
+}
+
+
+.servicesCardsContainer{
+    padding: 3rem 9rem 0 9rem;
+    display: flex;
+    gap: 15px;
+
+}

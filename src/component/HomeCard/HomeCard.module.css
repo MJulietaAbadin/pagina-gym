@@ -1,0 +1,69 @@
+.homeCardContent {
+    padding: 2rem;
+    text-align: left;
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 350px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+  }
+  
+  .homeCardContainer {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding-left: 7rem ;
+
+  }
+
+  .homeCardContent h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+
+  .highlight {
+    color: #f5c30f;
+    font-size: 3rem;
+  }
+  
+  .homeCardContainer p {
+    font-size: .9rem;
+    margin-bottom: 1.5rem;
+    font-weight: 200;
+  }
+  
+  .homeCardContent button {
+    background: transparent;
+    font-family: "Rubik", sans-serif;
+    border: 1px solid ;
+    color: #fff;
+    padding: 0.5rem 5rem;
+    font-size: .9rem;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease;
+  }
+  
+  .homeCardContent button::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #f5c30f;
+    transition: width 0.3s ease;
+  }
+  
+  .homeCardContent button:hover::before {
+    width: 100%;
+  }
+  
+  .homeCardContent button:hover {
+    color: #f5c30f;
+  }

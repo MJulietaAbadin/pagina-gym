@@ -1,0 +1,37 @@
+.card {
+    background-color: rgb(0, 0, 0, .9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    width: 400px; 
+    text-align: left; 
+    color: #e0e0e0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .photo img {
+    border-radius: 50%; 
+    width: 100px;
+    height: 100px; 
+    object-fit: cover; 
+  }
+  
+  .name {
+    font-size: 18px; 
+    font-weight: 400;
+    color: #f5c30f;
+    
+    
+  }
+
+  .content{
+    font-family: "Rubik", sans-serif; 
+    padding: 0 5px 0 20px;
+  }
+
+  .content p {
+    padding-top: 10px;
+    font-size: .8rem;
+    font-weight: 200;
+  }

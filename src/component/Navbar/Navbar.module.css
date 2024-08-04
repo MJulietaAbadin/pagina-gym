@@ -1,0 +1,66 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0);
+    padding: 1rem 2rem;
+    height: 2rem;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 0.9rem;
+  }
+  
+  .navContent {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .logo img {
+    height: 50px; 
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .navLinks li {
+    position: relative;
+  }
+  
+  .navLinks a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navLinks a:hover {
+    color: #f5c30f;
+  }
+  
+  .navLinks a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #f5c30f;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navLinks a:hover::before {
+    visibility: visible;
+    width: 100%;
+  }
+  

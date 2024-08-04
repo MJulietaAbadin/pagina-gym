@@ -1,0 +1,15 @@
+.title h1 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    border-left: 5px #f5c30f solid;
+    padding-left: 7px;
+    color: rgb(255, 255, 255);
+}
+
+.title {
+    padding-top: 7rem;
+    padding-left: 9rem;
+    
+}
+
